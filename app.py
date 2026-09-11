@@ -18,6 +18,19 @@ create_tables()
 # Page title
 st.title("Assessor School Allocation System")
 
+st.info("""
+Welcome to the Assessor School Allocation System.
+
+This platform allows assessors to select their preferred testing date
+and available school assignment.
+
+Please note:
+- Allocations are processed on a first-confirmed basis.
+- Each assessor can only select one school per testing date.
+- Schools will no longer appear once their required assessor capacity is reached.
+
+Please confirm your selection carefully before submitting.
+""")
 
 # Load data files
 
